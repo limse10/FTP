@@ -1,0 +1,23 @@
+{
+  "name": "file_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "cors": "^2.8.5",
+    "easy-ftp": "^0.4.1",
+    "express": "^4.17.1",
+    "ftp": "^0.3.10",
+    "ftp-client": "^0.2.2",
+    "ftpdump": "0.0.1",
+    "mysql": "^2.18.1"
+  }
+}
